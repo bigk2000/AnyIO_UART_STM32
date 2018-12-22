@@ -1,12 +1,6 @@
 # AnyIO_UART_STM32
 emulate UART using any IO , full duplex, max baudrate >= 115200
 
-问1：是否可以使用IO模拟UART通讯？
-问2：模拟UART波特率最大波特率能够做到多少？是否可以达到115200或以上？
-问3：模拟UART的时序误差最小可以做到多少？
-问4：模拟UART波特率较高时，如何降低CPU负载？
-
-
 使用IO模拟UART并不复杂，但如何做到高性能的模拟UART则是一个挑战；
 
 是否有可能使纯软件模拟的UART满足以下特性：
