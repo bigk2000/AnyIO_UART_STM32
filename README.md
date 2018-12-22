@@ -62,4 +62,5 @@ emulate UART using any IO , full duplex, max baudrate >= 115200
   因此CPU只要在收发开始和结束时干预一下就好了；
   通过把DMA的目标地址设为GPIO_BSRR可以实现任意IO作为TX,RX脚；
   经过测量，应该是可以实现512000波特率收发的，但未验证；
+  本方法可以用在有空闲定时器和DMA的任何MCU上；
 
